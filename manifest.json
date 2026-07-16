@@ -1,1 +1,53 @@
 
+{
+  "version": 6,
+  "updatedAt": "2026-07-15T00:00:00Z",
+  "categories": [
+    { "id": "all", "label": "All", "icon": "grid_view" }
+  ],
+  "reels": [
+    {
+      "id": "yorick_yawn",
+      "title": "Deep Yawn",
+      "category": "all",
+      "durationSec": 12,
+      "premium": false,
+      "thumbnailUrl": "",
+      "videoUrl": "https://yawning.vercel.app/yorick-yawn.mp4",
+      "bundledAssetPath": "assets/reels/videos/yorick-yawn.mp4",
+      "tags": ["yorick", "default"]
+    },
+    {
+      "id": "yawning_1",
+      "title": "Yawning 1",
+      "category": "all",
+      "durationSec": 10,
+      "premium": false,
+      "thumbnailUrl": "",
+      "videoUrl": "https://cdn.jsdelivr.net/gh/mahmoodusama718/drowsy-videos@main/videos/yawning-1.mp4",
+      "tags": ["yawning"]
+    },
+    {
+      "id": "yawning_2",
+      "title": "Yawning 2",
+      "category": "all",
+      "durationSec": 10,
+      "premium": false,
+      "thumbnailUrl": "",
+      "videoUrl": "https://cdn.jsdelivr.net/gh/mahmoodusama718/drowsy-videos@main/videos/yawning-2.mp4",
+      "tags": ["yawning"]
+    }
+  ],
+  "sounds": [
+    { "id": "rain",  "label": "Rain",  "emoji": "🌧️", "premium": false, "assetPath": "assets/sounds/rain.mp3",  "remoteUrl": "sounds/rain.mp3" },
+    { "id": "river", "label": "River", "emoji": "🌊", "premium": false, "assetPath": "assets/sounds/river.mp3", "remoteUrl": "sounds/river.mp3" },
+    { "id": "fan",   "label": "Fan",   "emoji": "🌀", "premium": false, "assetPath": "assets/sounds/fan.mp3",   "remoteUrl": "sounds/fan.mp3" }
+  ],
+  "gameLevels": [
+    { "level": 1, "durationSec": 15, "premium": false },
+    { "level": 2, "durationSec": 12, "premium": false },
+    { "level": 3, "durationSec": 10, "premium": true },
+    { "level": 4, "durationSec": 8,  "premium": true },
+    { "level": 5, "durationSec": 6,  "premium": true }
+  ]
+}
