@@ -1,57 +1,42 @@
-
 {
-  "version": 6,
-  "updatedAt": "2026-07-15T00:00:00Z",
+  "version": 8,
+  "updatedAt": "2026-07-16T00:00:00Z",
   "categories": [
     { "id": "all", "label": "All", "icon": "grid_view" }
   ],
   "reels": [
-    {
-      "id": "yorick_yawn",
-      "title": "Deep Yawn",
-      "category": "all",
-      "durationSec": 12,
-      "premium": false,
-      "thumbnailUrl": "",
-      "videoUrl": "https://yawning.vercel.app/yorick-yawn.mp4",
-      "bundledAssetPath": "assets/reels/videos/yorick-yawn.mp4",
-      "tags": ["yorick", "default"]
-    },
-    {
-      "id": "yawning_1",
-      "title": "Yawning 1",
-      "category": "all",
-      "durationSec": 10,
-      "premium": false,
-      "thumbnailUrl": "",
-      "videoUrl": "https://cdn.jsdelivr.net/gh/mahmoodusama718/drowsy-videos@main/videos/yawning-1.mp4",
-      "tags": ["yawning"]
-    },
-    {
-      "id": "yawning_2",
-      "title": "Yawning 2",
-      "category": "all",
-      "durationSec": 10,
-      "premium": false,
-      "thumbnailUrl": "",
-      "videoUrl": "https://cdn.jsdelivr.net/gh/mahmoodusama718/drowsy-videos@main/videos/yawning-2.mp4",
-      "tags": ["yawning"]
-    }
-      {
-      "id": "yawning_3",
-      "title": "Yawning 3",
-      "category": "all",
-      "durationSec": 10,
-      "premium": false,
-      "thumbnailUrl": "",
-      "videoUrl": "https://cdn.jsdelivr.net/gh/mahmoodusama718/drowsy-videos@main/videos/yawning-3.mp4",
-      "tags": ["yawning"]
-    }
+    { "id": "yorick_yawn", "title": "Deep Yawn", "category": "all", "durationSec": 12, "premium": false, "thumbnailUrl": "", "videoUrl": "https://yawning.vercel.app/yorick-yawn.mp4", "bundledAssetPath": "assets/reels/videos/yorick-yawn.mp4", "tags": ["yorick", "default"] },
+    { "id": "yawning_1", "title": "Yawning 1", "category": "all", "durationSec": 10, "premium": false, "thumbnailUrl": "", "videoUrl": "https://cdn.jsdelivr.net/gh/mahmoodusama718/drowsy-videos@main/videos/yawning-1.mp4", "tags": ["yawning"] },
+    { "id": "yawning_2", "title": "Yawning 2", "category": "all", "durationSec": 10, "premium": false, "thumbnailUrl": "", "videoUrl": "https://cdn.jsdelivr.net/gh/mahmoodusama718/drowsy-videos@main/videos/yawning-2.mp4", "tags": ["yawning"] },
+    { "id": "yawning_3", "title": "Yawning 3", "category": "all", "durationSec": 10, "premium": false, "thumbnailUrl": "", "videoUrl": "https://cdn.jsdelivr.net/gh/mahmoodusama718/drowsy-videos@main/videos/yawning-3.mp4", "tags": ["yawning"] },
+    { "id": "yawning_4", "title": "Yawning 4", "category": "all", "durationSec": 10, "premium": false, "thumbnailUrl": "", "videoUrl": "https://cdn.jsdelivr.net/gh/mahmoodusama718/drowsy-videos@main/videos/yawning-4.mp4", "tags": ["yawning"] },
+    { "id": "yawning_5", "title": "Yawning 5", "category": "all", "durationSec": 10, "premium": false, "thumbnailUrl": "", "videoUrl": "https://cdn.jsdelivr.net/gh/mahmoodusama718/drowsy-videos@main/videos/yawning-5.mp4", "tags": ["yawning"] }
   ],
   "sounds": [
-    { "id": "rain",  "label": "Rain",  "emoji": "🌧️", "premium": false, "assetPath": "assets/sounds/rain.mp3",  "remoteUrl": "sounds/rain.mp3" },
-    { "id": "river", "label": "River", "emoji": "🌊", "premium": false, "assetPath": "assets/sounds/river.mp3", "remoteUrl": "sounds/river.mp3" },
-    { "id": "fan",   "label": "Fan",   "emoji": "🌀", "premium": false, "assetPath": "assets/sounds/fan.mp3",   "remoteUrl": "sounds/fan.mp3" }
+    { "id": "rain",         "label": "Rain",            "emoji": "🌧️", "premium": false, "assetPath": "", "remoteUrl": "sounds/rain.mp3" },
+    { "id": "rain_tent",    "label": "Rain on Tent",    "emoji": "⛺",  "premium": false, "assetPath": "", "remoteUrl": "sounds/rain_tent.mp3" },
+    { "id": "rain_roof",    "label": "Rain & Thunder",  "emoji": "🏠",  "premium": false, "assetPath": "", "remoteUrl": "sounds/rain_roof.mp3" },
+    { "id": "river",        "label": "River",           "emoji": "🏞️", "premium": false, "assetPath": "", "remoteUrl": "sounds/river.mp3" },
+    { "id": "ocean",        "label": "Ocean Waves",     "emoji": "🌊",  "premium": false, "assetPath": "", "remoteUrl": "sounds/ocean.mp3" },
+    { "id": "stream",       "label": "Cave Stream",     "emoji": "💧",  "premium": false, "assetPath": "", "remoteUrl": "sounds/stream.mp3" },
+    { "id": "wind",         "label": "Wind in Trees",   "emoji": "🌬️", "premium": false, "assetPath": "", "remoteUrl": "sounds/wind.mp3" },
+    { "id": "leaves",       "label": "Leaves",          "emoji": "🍂",  "premium": false, "assetPath": "", "remoteUrl": "sounds/leaves.mp3" },
+    { "id": "campfire",     "label": "Campfire",        "emoji": "🔥",  "premium": false, "assetPath": "", "remoteUrl": "sounds/campfire.mp3" },
+    { "id": "crickets",     "label": "Crickets",        "emoji": "🦗",  "premium": false, "assetPath": "", "remoteUrl": "sounds/crickets.mp3" },
+    { "id": "thunder",      "label": "Distant Thunder", "emoji": "⛈️", "premium": false, "assetPath": "", "remoteUrl": "sounds/thunder.mp3" },
+    { "id": "birdsong",     "label": "Dawn Birds",      "emoji": "🐦",  "premium": false, "assetPath": "", "remoteUrl": "sounds/birdsong.mp3" },
+    { "id": "forest",       "label": "Forest",          "emoji": "🌲",  "premium": false, "assetPath": "", "remoteUrl": "sounds/forest.mp3" },
+    { "id": "fan",          "label": "Fan",             "emoji": "🌀",  "premium": false, "assetPath": "", "remoteUrl": "sounds/fan.mp3" },
+    { "id": "ac",           "label": "Air Conditioner", "emoji": "❄️", "premium": false, "assetPath": "", "remoteUrl": "sounds/ac.mp3" },
+    { "id": "airplane",     "label": "Airplane Cabin",  "emoji": "✈️", "premium": false, "assetPath": "", "remoteUrl": "sounds/airplane.mp3" },
+    { "id": "train",        "label": "Train",           "emoji": "🚂",  "premium": false, "assetPath": "", "remoteUrl": "sounds/train.mp3" },
+    { "id": "brown_noise",  "label": "Brown Noise",     "emoji": "🟤",  "premium": false, "assetPath": "", "remoteUrl": "sounds/brown_noise.mp3" },
+    { "id": "cafe",         "label": "Café Murmur",     "emoji": "☕",  "premium": false, "assetPath": "", "remoteUrl": "sounds/cafe.mp3" },
+    { "id": "clock",        "label": "Ticking Clock",   "emoji": "🕰️", "premium": false, "assetPath": "", "remoteUrl": "sounds/clock.mp3" },
+    { "id": "library",      "label": "Quiet Library",   "emoji": "📖",  "premium": false, "assetPath": "", "remoteUrl": "sounds/library.mp3" },
+    { "id": "singing_bowl", "label": "Singing Bowls",   "emoji": "🎐",  "premium": false, "assetPath": "", "remoteUrl": "sounds/singing_bowl.mp3" },
+    { "id": "drone",        "label": "Ambient Drone",   "emoji": "🌌",  "premium": false, "assetPath": "", "remoteUrl": "sounds/drone.mp3" },
+    { "id": "heartbeat",    "label": "Heartbeat",       "emoji": "🫀",  "premium": false, "assetPath": "", "remoteUrl": "sounds/heartbeat.mp3" }
   ],
   "gameLevels": [
     { "level": 1, "durationSec": 15, "premium": false },
