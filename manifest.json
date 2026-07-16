@@ -37,6 +37,16 @@
       "videoUrl": "https://cdn.jsdelivr.net/gh/mahmoodusama718/drowsy-videos@main/videos/yawning-2.mp4",
       "tags": ["yawning"]
     }
+      {
+      "id": "yawning_3",
+      "title": "Yawning 3",
+      "category": "all",
+      "durationSec": 10,
+      "premium": false,
+      "thumbnailUrl": "",
+      "videoUrl": "https://cdn.jsdelivr.net/gh/mahmoodusama718/drowsy-videos@main/videos/yawning-3.mp4",
+      "tags": ["yawning"]
+    }
   ],
   "sounds": [
     { "id": "rain",  "label": "Rain",  "emoji": "🌧️", "premium": false, "assetPath": "assets/sounds/rain.mp3",  "remoteUrl": "sounds/rain.mp3" },
